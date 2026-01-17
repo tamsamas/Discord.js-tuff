@@ -7,8 +7,8 @@ const TELEGRAM_CHAT_ID = 'YOUR_TELEGRAM_CHAT_ID';
 
 const client = new Discord.Client({
   ws: {
-    properties: {
-      os: "Android",
+    properties: { //it tells discord that youre on a phone, so you will recieve messages even when the script is running.
+      os: "Android", 
       browser: "Discord Android",
       device: "Discord Android"
     }
