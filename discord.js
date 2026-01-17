@@ -29,7 +29,7 @@ function setPresence() {
   };
 
   client.user.setPresence({
-    activities: [activityData],
+// UNCOMMENT THIS IF YOUR WANT A CRAZY RICH PRESENCE    activities: [activityData],
     status: "dnd"
   });
 
@@ -39,7 +39,7 @@ function setPresence() {
       op: 3,
       d: {
         since: null,
-        activities: [activityData],
+// UNCOMMENT THIS IF YOUR WANT A CRAZY RICH PRESENCE        activities: [activityData],
         status: "dnd",
         afk: false,
         client_status: {
